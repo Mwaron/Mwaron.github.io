@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator_style.css" type="text/css">
+    <title>Mértékegység átváltás</title>
+
+</head>
+<body>
+    <script src="JavaScript/Calculator.js"></script>
+    <h1>
+        Font, kilogramm átváltások
+    </h1>
+        <p>Kg --- Font:</p>
+        <input id="inputKg" type="number" placeholder="Kilogramm"
+            oninput="kgFontKonverter(this.value)" onchange="kgFontKonverter(this.value)" />
+        Kilogramm: <span id="outputFont"></span>
+
+
+</body>
+</html>
